@@ -7,7 +7,7 @@ offset_right = 1319.0
 offset_bottom = 731.0
 color = Color(0.44705883, 1, 0, 1)
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect2" type="ColorRect" parent="."]
 offset_left = 66.0
 offset_top = 419.0
 offset_right = 308.0
