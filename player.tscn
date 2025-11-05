@@ -17,6 +17,10 @@ script = ExtResource("1_onrkg")
 texture = ExtResource("2_i3pqv")
 script = SubResource("GDScript_hqtel")
 
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+position_smoothing_enabled = true
+position_smoothing_speed = 4.0
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, -2)
 shape = SubResource("CircleShape2D_sweqy")
